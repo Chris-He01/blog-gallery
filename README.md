@@ -1,3 +1,37 @@
+# 🚀 本地运行教程
+
+> **快速启动 blog-gallery 本地预览**
+
+## 前提条件
+
+- 安装 [Hugo](https://gohugo.io/installation/)（extended 版本）
+- 安装 [Go](https://go.dev/dl/)（Hugo Modules 依赖）
+
+## 启动步骤
+
+```bash
+# 1. 进入 exampleSite 目录（主题预览站）
+cd exampleSite
+
+# 2. 启动本地开发服务器（端口 1313）
+hugo server -p 1313 -D --disableFastRender --baseURL http://localhost:1313/
+```
+
+> ⚠️ 注意：必须显式指定 `--baseURL`，端口和 URL 要保持一致，否则样式会加载失败。
+
+浏览器打开：**http://localhost:1313/**
+
+## 常用参数说明
+
+| 参数 | 说明 |
+|------|------|
+| `-p 1313` | 指定端口（可改成其他端口） |
+| `-D` | 包含草稿文章 |
+| `--disableFastRender` | 全量重建，确保改动100%生效 |
+| `--baseURL` | 必须与端口一致，样式才能正常加载 |
+
+---
+
 # Hugo Gallery Theme
 
 A very simple and opinionated photo gallery theme for Hugo.
