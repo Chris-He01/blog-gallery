@@ -1,7 +1,7 @@
 ---
-description: An example site for hugo-theme-gallery. Images from Unsplash.
+description: 一个承载记忆和思考的米缸
 #lastmod: 2023-07-05
-title: Hugo Gallery
+title: Chris's Gallery
 resources:
   - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
     params:

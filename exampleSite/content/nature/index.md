@@ -5,12 +5,12 @@ title: Nature
 categories: ["nature"]
 weight: 3
 params:
-  featured_image: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+  featured_image: vitalik-vynarchyk-TUzsO59UFpo-unsplash.jpg
   theme: dark
   sort_order: desc
   sort_by: Name # Exif.Date
 resources:
-  - src: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+  - src: vitalik-vynarchyk-TUzsO59UFpo-unsplash.jpg
     params:
       cover: true
 ---

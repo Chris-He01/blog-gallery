@@ -1,25 +1,21 @@
-copyright = "© Your Name"
+copyright = "© Chris He"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 languageCode = "en"
-timeZone = "Europe/Berlin"
+timeZone = "Asia/Shanghai"
 timeout = "120s"
-title = "Gallery"
+title = "Chris's Gallery"
 
 [params]
   defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  description = "一个承载记忆和思考的米缸"
+  title = "Chris's Gallery"
   [params.author]
-    email = "user@example.com"
-    name = "Your Name"
+    email = ""
+    name = "Chris He"
   [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
+    github = "https://github.com/Chris-He01"
     #website = "https://example.com"
     #mastodon = "https://example.com"
     #pixelfed = "https://example.com"

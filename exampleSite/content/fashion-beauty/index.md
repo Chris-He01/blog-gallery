@@ -5,10 +5,10 @@ title: Fashion & Beauty
 weight: 2
 categories: ["beauty", "fashion"]
 params:
+  featured_image: image.png
   theme: light
 resources:
-  - src: mina-rad-V94CguEmeos-unsplash.jpg
+  - src: image.png
     params:
       cover: true
-      caption: 柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,, 柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习 , 柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习,柔光人像，化妆与配色练习    # 新增：说明文字
 ---
