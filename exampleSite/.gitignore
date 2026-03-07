@@ -4,3 +4,10 @@ resources/
 .hugo_build.lock
 hugo_stats.json
 content/**/*.jpg
+content/**/*.JPG
+content/**/*.jpeg
+content/**/*.JPEG
+content/**/*.png
+content/**/*.PNG
+content/**/*.gif
+content/**/*.GIF

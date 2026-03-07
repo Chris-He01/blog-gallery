@@ -10,6 +10,12 @@ exampleSite/assets/jsconfig.json
 *.avi
 *.webm
 *.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
 
 # Ignore large images (optional - only if you want to exclude them)
 # Uncomment if needed:
