@@ -1,3 +1,47 @@
+/* Magazine-style prose layout - pure CSS */
+section.prose {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section.prose p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+section.prose img {
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 2rem 1rem 0;
+  object-fit: cover;
+}
+
+section.prose p:has(img) {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+section.prose p:has(img):nth-of-type(even) {
+  direction: rtl;
+}
+
+section.prose p:has(img):nth-of-type(even) > * {
+  direction: ltr;
+}
+
+section.prose h2,
+section.prose hr {
+  clear: both;
+  margin-top: 3rem;
+}
+
 /* High contrast colours
 :root {
   --surface-1-light: #fff;
