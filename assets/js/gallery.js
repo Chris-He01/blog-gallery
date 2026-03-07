@@ -8,10 +8,32 @@ if (gallery) {
   const items = gallery.querySelectorAll(".gallery-item");
 
   const aspectRatios = Array.from(items).map((item) => {
+    // Support both images and videos
     const img = item.querySelector("img");
-    img.style.width = "100%";
-    img.style.height = "auto";
-    return parseFloat(img.getAttribute("width")) / parseFloat(img.getAttribute("height"));
+    const video = item.querySelector("video");
+    const mediaElement = img || video;
+    
+    if (mediaElement) {
+      mediaElement.style.width = "100%";
+      mediaElement.style.height = "auto";
+      
+      // Get aspect ratio from element or from inline style
+      if (img) {
+        return parseFloat(img.getAttribute("width")) / parseFloat(img.getAttribute("height"));
+      } else if (video) {
+        // For videos, parse from the aspect-ratio style on the parent link
+        const aspectRatioStyle = item.style.aspectRatio;
+        if (aspectRatioStyle) {
+          const [w, h] = aspectRatioStyle.split('/').map(v => parseFloat(v.trim()));
+          return w / h;
+        }
+        // Default video aspect ratio
+        return 16 / 9;
+      }
+    }
+    
+    // Fallback aspect ratio
+    return 1;
   });
 
   function updateGallery() {

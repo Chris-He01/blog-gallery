@@ -20,29 +20,6 @@ if (gallery) {
     errorMsg: params.errorMsg,
   });
 
-  // Add video support
-  lightbox.on("contentLoad", (e) => {
-    const { content } = e;
-    if (content.type === "video") {
-      e.preventDefault();
-      const videoSrc = content.data.element.dataset.pswpVideoSrc;
-      
-      content.element = document.createElement("div");
-      content.element.className = "pswp__video-container";
-      
-      const video = document.createElement("video");
-      video.src = videoSrc;
-      video.controls = true;
-      video.autoplay = true;
-      video.loop = true;
-      video.style.width = "100%";
-      video.style.height = "100%";
-      video.style.objectFit = "contain";
-      
-      content.element.appendChild(video);
-    }
-  });
-
   if (params.enableDownload) {
     lightbox.on("uiRegister", () => {
       lightbox.pswp.ui.registerElement({

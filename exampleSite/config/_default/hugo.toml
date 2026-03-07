@@ -7,6 +7,11 @@ timeZone = "Asia/Shanghai"
 timeout = "120s"
 title = "Chris's Gallery"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   defaultTheme = "dark"
   description = "一个承载记忆和思考的米缸"
