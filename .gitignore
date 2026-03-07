@@ -3,3 +3,20 @@ package-lock.json
 .hugo_build.lock
 exampleSite/assets/jsconfig.json
 .DS_Store
+
+# Ignore large media files
+*.mp4
+*.mov
+*.avi
+*.webm
+*.mkv
+
+# Ignore large images (optional - only if you want to exclude them)
+# Uncomment if needed:
+# *.png
+# *.jpg
+# *.jpeg
+
+# Ignore Hugo build outputs
+exampleSite/public/
+exampleSite/resources/
