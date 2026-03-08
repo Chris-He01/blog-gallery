@@ -116,3 +116,13 @@ http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9961.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9970.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9989.jpg
 EOF
+
+
+# Stay Mem (High School Homestay)
+while IFS= read -r url; do
+	wget --no-clobber --content-disposition --directory-prefix=content/story "$url"
+done <<'EOF'
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9940.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9945.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9946.jpg
+EOF
