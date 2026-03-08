@@ -4,9 +4,6 @@
 wget --no-clobber --content-disposition --directory-prefix=content "https://unsplash.com/photos/wRuhOOaG-Z4/download?&force=true&w=1920"
 
 
-# Fashion & Beauty
-wget --no-clobber --content-disposition --directory-prefix=content/fashion-beauty "https://unsplash.com/photos/FkxXePJJH5g/download?force=true&w=1920"
-
 # Nature
 wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/ZS_XuDZmxpM/download?&force=true&w=1920"
 wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/U7BG3FOT5r8/download?&force=true&w=1920"
@@ -73,4 +70,94 @@ http://tbiyvdh13.hd-bkt.clouddn.com/tibet/IMG_0701.JPG
 http://tbiyvdh13.hd-bkt.clouddn.com/tibet/IMG_0705.JPG
 http://tbiyvdh13.hd-bkt.clouddn.com/tibet/IMG_0708.JPG
 http://tbiyvdh13.hd-bkt.clouddn.com/tibet/IMG_0716.JPG
+EOF
+
+# Stay Mem (High School Homestay)
+while IFS= read -r url; do
+	wget --no-clobber --content-disposition --directory-prefix=content/stay_mem "$url"
+done <<'EOF'
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9778.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9779.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9785.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9790.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9792.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9817.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9818.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9821.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9822.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9823.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9824.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9825.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9826.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9838.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9839.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9840.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9844.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9845.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9851.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9859.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9860.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9863.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9870.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9886.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9918.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9926.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9927.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9928.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9929.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9932.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9933.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9938.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9939.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9940.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9945.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9946.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9961.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9970.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9989.jpg
+EOF
+
+# Stay Memory
+while IFS= read -r url; do
+	wget --no-clobber --content-disposition --directory-prefix=content/stay_mem "$url"
+done <<'EOF'
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9778.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9779.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9785.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9790.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9792.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9817.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9818.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9821.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9822.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9823.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9824.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9825.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9826.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9838.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9839.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9840.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9844.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9845.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9851.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9859.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9860.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9863.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9870.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9886.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9918.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9926.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9927.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9928.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9929.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9932.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9933.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9938.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/twestay/IMG_9939.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9940.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9945.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9946.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9961.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9970.jpg
+http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9989.jpg
 EOF
