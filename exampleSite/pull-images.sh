@@ -7,6 +7,13 @@ wget --no-clobber --content-disposition --directory-prefix=content "https://unsp
 # Nature
 wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/ZS_XuDZmxpM/download?&force=true&w=1920"
 wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/U7BG3FOT5r8/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/f_C_lFxqThI/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/RuaRTaKi-D4/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/P45gR9kH0SM/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/k_PbdrEs79g/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/4f8u5mFGKjw/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/TUzsO59UFpo/download?&force=true&w=1920"
+wget --no-clobber --content-disposition --directory-prefix=content/nature "https://unsplash.com/photos/x7CyIC2jUaE/download?&force=true&w=1920"
 exiftool -ImageDescription="nature that makes you feel like you are in a dream by Daria Shevtsova" content/nature/daria-shevtsova-f_C_lFxqThI-unsplash.jpg
 exiftool -ImageDescription="aerial photography of body of water surrounded by trees during daytime by Daria Shevtsova" content/nature/daria-shevtsova-k_PbdrEs79g-unsplash.jpg
 
@@ -107,12 +114,10 @@ http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9928.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9929.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9932.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9933.jpg
-http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9938.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9939.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9940.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9945.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9946.jpg
-http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9961.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9970.jpg
 http://tbiyvdh13.hd-bkt.clouddn.com/high_school/two_homestay/IMG_9989.jpg
 EOF
